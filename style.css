@@ -44,10 +44,11 @@ background: linear-gradient(
 
 /* The big name heading */
 #explorer-name {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 32px;
-    color: #c8aaff;
-    margin-bottom: 8px;
+font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #b388ff;
+  margin-bottom: 8px;
 }
 
 /* The subtitle under the name */
