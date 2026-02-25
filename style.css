@@ -31,7 +31,7 @@ body {
   padding: 50px 60px;   /* FIXED px */
   max-width: 600px;
   width: 90%;
-  text-align: left;
+  text-align: center;
   box-shadow: 0 0 80px rgba(180, 120, 255, 0.15);
 }
 
