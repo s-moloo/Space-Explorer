@@ -26,22 +26,18 @@ body {
   );
 
   backdrop-filter: blur(10px);
-
   border: 1px solid rgba(200, 170, 255, 0.25);
   border-radius: 22px;
-
   padding: 50px 60px;   /* FIXED px */
   max-width: 600px;
   width: 90%;
-
   text-align: left;
-
   box-shadow: 0 0 80px rgba(180, 120, 255, 0.15);
 }
 
 /* The big name heading */
 #explorer-name {
-   font-family: 'Orbitron', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 36px;
   font-weight: 700;
   color: #b388ff;
@@ -71,35 +67,37 @@ body {
 
 /* The launch button */
 #launch-btn {
-    background: linear-gradient(135deg, #c8aaff, #7effd4);
-    color: #0d0d1a;
-    border: none;
-    border-radius: 30px;
-    padding: 14px 36px;
-    font-size: 16px;
-    font-family: 'orbitron', sans-serif;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
+   background: linear-gradient(90deg, #b388ff, #66ffd1);
+   color: #0d0d1a;
+   border: none;
+   border-radius: 35px;
+   padding: 15px 40px;
+   font-size: 16px;
+   font-family: 'Orbitron', sans-serif;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   display: block;
+   margin-top: 10px;
+ }
 
 #launch-btn:hover {
-    transform: scale(1.05);  /* shows hand cursor on hover */
-    box-shadow: 0 0 30px rgba(200, 170, 255, 0.5);
+  transform: scale(1.07);
+  box-shadow: 0 0 30px rgba(180, 120, 255, 0.6);
 }
 
 /* The mission status message (starts empty, JS fills it) */
 #mission-status {
-    font-style: italic;
-    min-height: 24px;       /*reserves space even when empty */
-    transition: all 0.4s;   /*smooth fade when JS changes it */
+  font-style: italic;
+  min-height: 24px;
+  margin-top: 20px;
+  transition: all 0.4s;
 }
 
 /* style.css — add this too */
 .status-active {
-    color: #7effd4;
-    margin-top: 20px;
-    font-size: 15px;
-    animation: fadeIn 0.5s ease;
+  color: #7effd4;
+  font-size: 15px;
+  animation: fadeIn 0.5s ease;
 }
 
 @keyframes fadeIn {
