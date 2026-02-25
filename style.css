@@ -53,11 +53,11 @@ font-family: 'Orbitron', sans-serif;
 
 /* The subtitle under the name */
 .explorer-title {
-    color: #7effd4;
-    font-size: 16px;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    color: #00ffd5;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
 }
 
 /* The stats list */
