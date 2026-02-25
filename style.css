@@ -81,8 +81,8 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 
-  margin: 20px auto 0 auto;  /* ✅ Center button */
-  display: inline-block;
+  display: block;
+  margin-top: 10px;
  }
 
 #launch-btn:hover {
