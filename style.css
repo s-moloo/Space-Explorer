@@ -68,21 +68,15 @@ body {
 
 /* The launch button */
 #launch-btn {
-  background: linear-gradient(90deg, #b388ff, #66ffd1);
+  background: linear-gradient(135deg, #c8aaff, #7effd4);
   color: #0d0d1a;
-
   border: none;
-  border-radius: 35px;
-
-  padding: 15px 40px;
+  border-radius: 30px;
+  padding: 14px 36px;
   font-size: 16px;
-  font-family: 'Orbitron', sans-serif;
-
+  font-family: 'orbitron', sans-serif;
   cursor: pointer;
-  transition: all 0.3s ease;
-
-  display: block;
-  margin-top: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
  }
 
 #launch-btn:hover {
