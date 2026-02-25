@@ -55,11 +55,9 @@ body {
 /* The stats list */
 .explorer-stats {
   list-style: none;
-  margin: 40px auto; 
-  padding: 0;
+  margin-bottom: 40px;
   color: #d0d0e8;
   line-height: 2.2;
-  text-align: center;
 }
 
 .explorer-stats-strong {
