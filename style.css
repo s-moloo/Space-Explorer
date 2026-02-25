@@ -27,8 +27,8 @@ body {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(200, 170, 255, 0.25);
   border-radius: 22px;
-  padding: 50x 60x;
-  max-width: 600px;
+  padding: 60px;
+  max-width: 650px;
   width: 90%;
   text-align: center;   /* ✅ CENTER CONTENT */
   box-shadow: 0 0 80px rgba(180, 120, 255, 0.15);
@@ -55,9 +55,11 @@ body {
 /* The stats list */
 .explorer-stats {
   list-style: none;
-  margin-bottom: 40px;
+  margin: 40px auto; 
+  padding: 0;
   color: #d0d0e8;
   line-height: 2.2;
+  text-align: center;
 }
 
 .explorer-stats-strong {
@@ -66,17 +68,21 @@ body {
 
 /* The launch button */
 #launch-btn {
-   background: linear-gradient(90deg, #b388ff, #66ffd1);
-   color: #0d0d1a;
-   border: none;
-   border-radius: 35px;
-   padding: 15px 40px;
-   font-size: 16px;
-   font-family: 'Orbitron', sans-serif;
-   cursor: pointer;
-   transition: all 0.3s ease;
-   display: block;
-   margin-top: 10px;
+  background: linear-gradient(90deg, #b388ff, #66ffd1);
+  color: #0d0d1a;
+
+  border: none;
+  border-radius: 35px;
+
+  padding: 15px 40px;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  margin: 20px auto 0 auto;  /* ✅ Center button */
+  display: inline-block;
  }
 
 #launch-btn:hover {
