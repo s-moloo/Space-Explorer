@@ -10,14 +10,14 @@ box-sizing: border-box;
 /* Style the whole page */
 body {
 font-family: 'Exo 2', sans-serif;
-background-color: #050510;
-background-image: radial-gradient(circle at 20% 30%, #1a0533 0%, transparent 50%),
-radial-gradient(circle at 80% 70%, #001a33 0%, transparent 50%);
 
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+  /* Deep space gradient */
+  background: linear-gradient(135deg, #1a0033, #000814);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* The card container */
