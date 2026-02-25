@@ -19,7 +19,7 @@ body {
 
 /* The card container */
 #profile-card {
-    background: linear-gradient(
+  background: linear-gradient(
     135deg,
     rgba(40, 0, 80, 0.6),
     rgba(0, 20, 60, 0.6)
@@ -28,10 +28,10 @@ body {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(200, 170, 255, 0.25);
   border-radius: 22px;
-  padding: 50px 60px;   /* FIXED px */
+  padding: 50px 60px;
   max-width: 600px;
   width: 90%;
-  text-align: center;
+  text-align: center;   /* ✅ CENTER CONTENT */
   box-shadow: 0 0 80px rgba(180, 120, 255, 0.15);
 }
 
