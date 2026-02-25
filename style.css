@@ -62,10 +62,11 @@ font-family: 'Orbitron', sans-serif;
 
 /* The stats list */
 .explorer-stats {
-   list-style: none;
-  margin-bottom: 40px;
-  color: #d0d0e8;
-  line-height: 2.2;
+    list-style: none;   /*removes bullet dots */
+    margin-bottom: 36px;
+    text-align: left;
+    color: #d0d0e8;
+    line-height: 2;
 }
 
 .explorer-stats-strong {
