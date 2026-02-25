@@ -41,32 +41,32 @@ body {
 
 /* The big name heading */
 #explorer-name {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 32px;
-    color: #c8aaff;
-    margin-bottom: 8px;
+   font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #b388ff;
+  margin-bottom: 8px;
 }
 
 /* The subtitle under the name */
 .explorer-title {
-    color: #7effd4;
-    font-size: 16px;
-    margin-bottom: 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+  color: #00ffd5;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
 }
 
 /* The stats list */
 .explorer-stats {
-    list-style: none;   /*removes bullet dots */
-    margin-bottom: 36px;
-    text-align: left;
-    color: #d0d0e8;
-    line-height: 2;
+  list-style: none;
+  margin-bottom: 40px;
+  color: #d0d0e8;
+  line-height: 2.2;
 }
 
 .explorer-stats-strong {
-    color: #ffcc66;
+   color: #ffb84d;
 }
 
 /* The launch button */
